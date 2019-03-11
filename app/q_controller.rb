@@ -1,6 +1,6 @@
 class QController <
         R00lz::Controller
   def a_quote
-   "All You Need Is Love."
+   "You can't take the sky from me."
   end
 end
