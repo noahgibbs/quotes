@@ -13,4 +13,9 @@ class QController <
     @noun = :winking
     render(:shakes)
   end
+
+  def fq
+    @q = FileModel.find(params["q"] || "1")
+    render :quote
+  end
 end
