@@ -1,0 +1,2 @@
+class MyTable < SQLModel
+end

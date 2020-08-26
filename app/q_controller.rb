@@ -18,4 +18,9 @@ class QController <
     @q = FileModel.find(params["q"] || "1")
     render :quote
   end
+
+  def sql_index
+    @posts = MyTable.all
+    render :sql_index
+  end
 end
