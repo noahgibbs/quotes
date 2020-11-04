@@ -23,4 +23,8 @@ class QController <
     @posts = MyTable.all
     render :sql_index
   end
+
+  def index
+    respond("The root URL")
+  end
 end
